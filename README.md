@@ -9,11 +9,11 @@ Tested Tagging Accuracy: <br>
   
 To learn/map probabilities: <br>
 ```
-python learn.py path/to/input ---> Generates hmmmodel.txt (contains model in JSON format) <br>
+python learn.py path/to/input ---> Generates vanillamodel.txt and averagedmodel.txt <br>
 ```
 To tag raw data: <br>
 ```
-python decode.py path/to/input --> Generates hmmoutput.txt (contains tagged text data) <br>
+python decode.py path/to/input --> Generates output.txt (contains tagged text data) <br>
 ```
 To compare with tagged data: <br>
 ```
