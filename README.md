@@ -9,13 +9,13 @@ Tested Tagging Accuracy: <br>
   
 To learn/map probabilities: <br>
 ```
-python learn.py path/to/input ---> Generates vanillamodel.txt and averagedmodel.txt <br>
+python train.py path/to/input ---> Generates vanillamodel.txt and averagedmodel.txt <br>
 ```
 To tag raw data: <br>
 ```
-python decode.py path/to/input --> Generates output.txt (contains tagged text data) <br>
+python test.py path/to/input --> Generates output.txt (contains tagged text data) <br>
 ```
 To compare with tagged data: <br>
 ```
-python compare.py path/to/input ----> Prints statistics to standard output
+python compare.py ----> Prints statistics to standard output
 ```
